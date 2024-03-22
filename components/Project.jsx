@@ -1,7 +1,8 @@
 import React from 'react';
 import { BiCodeAlt } from 'react-icons/bi';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { AiFillPlayCircle } from 'react-icons/ai';
+import { FaNodeJs } from 'react-icons/fa';
+import { SiJupyter } from 'react-icons/si';
+import { IoLogoPython } from 'react-icons/io5';
 const Project = () => {
   return (
     <div className=" px-6 py-10">
@@ -12,7 +13,7 @@ const Project = () => {
         {/* Project One */}
         <div className="card h-48 relative">
           <div className="flex items-center  gap-2 mt-5">
-            <FaReact className="text-white text-2xl" />
+            <FaNodeJs className="text-white text-2xl" />
             <h2 className=" text-xl text-white">Path - Finding Visualizer</h2>
           </div>
           <div className="my-3">
@@ -35,7 +36,7 @@ const Project = () => {
         {/* Project Two */}
         <div className="card h-48 relative">
           <div className="flex items-center  gap-2 mt-5">
-            <FaNodeJs className="text-2xl text-white" />
+            <SiJupyter className="text-2xl text-white" />
             <h2 className="text-xl text-white">
               Face Mask Detection Alert System
             </h2>
@@ -60,7 +61,7 @@ const Project = () => {
         {/* Project Three */}
         <div className="card h-48 relative">
           <div className="flex items-center gap-2 mt-5">
-            <FaNodeJs className="text-2xl text-white" />
+            <IoLogoPython className="text-2xl text-white" />
             <h2 className=" text-xl text-white">Automated Messaging System</h2>
           </div>
           <div className="my-3">
