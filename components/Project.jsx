@@ -17,8 +17,8 @@ const Project = () => {
           </div>
           <div className="my-3">
             <p className=" text-base text-white">
-              Offered users an intuitive interface to visualize the 3 shortest
-              path Algo through Breadth-First Search, Dijkstra’s, and A* Search
+              Offered users, an intuitive interface to visualize the top 3
+              shortest path Algo through BFS, Dijkstra’s, and A* Search
               Algorithms, structured in JavaScript.
             </p>
           </div>
@@ -43,9 +43,8 @@ const Project = () => {
           <div className="my-3">
             <p className=" text-base text-white ">
               Utilized the haarcascade frontalface dataset to detect frontal
-              faces. Gathered personal face data with and without masks via
-              camera and stored both datasets using OpenCV. Incorporated a Beep
-              alert that persists until a mask is worn.
+              faces. Incorporated a Beep alert that persists until a mask is
+              worn.
             </p>
           </div>
           <div className=" absolute bottom-2 right-4">
