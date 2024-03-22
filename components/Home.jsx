@@ -1,9 +1,5 @@
-import {
-  AiFillGithub,
-  AiOutlineInstagram,
-  AiOutlineMail,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
+import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 
 function Home() {
   return (
@@ -14,14 +10,23 @@ function Home() {
           style={{ flex: 0.6 }}
         >
           <h1 className="text-3xl sm:text-4xl lg:text-5xl tracking-wider font-semibold my-6 text-center text-gray-900">
-            Hi, I&#x27;m Rahul
+            Hi, I&#x27;m Amit
           </h1>
           <h2 className="text-lg md:text-xl lg:text-2xl text-gray-500 tracking-wide mx-auto text-gray-500 text-center">
             Developer 🧑‍💻 | ReactJS ⚛️ | NodeJS 🚀
           </h2>
           <div className="flex mt-8 gap-5">
             <a
-              href="https://www.github.com/Rahul-icoder"
+              href="https://wa.me/+919022217954"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="home-icon">
+                <FaWhatsapp />
+              </div>
+            </a>
+            <a
+              href="https://github.com/Amit-code-eng"
               target="_blank"
               rel="noreferrer"
             >
@@ -30,7 +35,7 @@ function Home() {
               </div>
             </a>
             <a
-              href="mailto: rahulkerma12345@gmail.com"
+              href="mailto: amitdilipjaiswal191220@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -39,7 +44,7 @@ function Home() {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/in/rahul-kushwaha-5002981b6/"
+              href="https://www.linkedin.com/in/amit-jaiswal-b062811a3"
               target="_blank"
               rel="noreferrer"
             >
@@ -47,18 +52,13 @@ function Home() {
                 <FaLinkedinIn />
               </div>
             </a>
+          </div>
+          <div className="flex justify-center mt-10">
             <a
-              href="https://www.instagram.com/rahulkushwaha_001/"
+              href="https://drive.google.com/file/d/19Ou-bqp4dXxM0ekt76YC-X41KB4or9Da/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="home-icon">
-                <AiOutlineInstagram />
-              </div>
-            </a>
-          </div>
-          <div className="flex justify-center mt-10">
-            <a href="resume.pdf" target="_blank" rel="noreferrer">
               <button className="text-sm p-4 font-semibold rounded-md hover:translate-y-1 scale-90 text-white tracking-wider hover:bg-white hover:text-custom-black transition duration-500 border border-custom-black p-2 bg-custom-black">
                 DOWNLOAD RESUME
               </button>

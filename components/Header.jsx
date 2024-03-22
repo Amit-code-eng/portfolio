@@ -1,12 +1,12 @@
-import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineClose } from "react-icons/ai";
-import { useRef, useState } from "react";
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { AiOutlineClose } from 'react-icons/ai';
+import { useRef, useState } from 'react';
 function Header() {
   const navRef = useRef(null);
   const [isNav, setIsNav] = useState(true);
   const navToogle = () => {
-    navRef.current.classList.toggle("hidden");
-    navRef.current.classList.toggle("flex");
+    navRef.current.classList.toggle('hidden');
+    navRef.current.classList.toggle('flex');
     setIsNav((prev) => !prev);
   };
   return (
@@ -15,11 +15,11 @@ function Header() {
         className="text-2xl font-semibold"
         style={{ fontFamily: "'Dancing Script', cursive" }}
       >
-        Rahul Kushwaha
+        Amit Dilip Jaiswal
       </h1>
       <nav
         ref={navRef}
-        style={{ fontFamily: "" }}
+        style={{ fontFamily: '' }}
         className="uppercase text-base  gap-5 pt-5 sm:pt-0 sm:gap-5 items-center hidden flex-col sm:flex-row sm:flex transition duration-500"
       >
         <a

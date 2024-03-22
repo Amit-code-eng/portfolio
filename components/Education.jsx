@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Education = () => {
   return (
@@ -10,40 +10,40 @@ const Education = () => {
         <div className="h-48 card">
           <div className="gap-2 mt-5">
             <h2 className="text-xl text-center text-white">
-              Indra Gandhi National Open University
+              Indian Institute of Technology (IIT BHU) Varanasi
             </h2>
           </div>
           <div className="my-3">
             <p className="text-base text-center text-white mt-1">
-              Master of Computer Applications
+              Bachelor of Technology (B. Tech)
             </p>
-            <p className="text-base text-center text-white mt-1">2022 - 2024</p>
+            <p className="text-base text-center text-white mt-1">2019 - 2023</p>
           </div>
         </div>
         <div className="h-48 card">
           <div className="gap-2 mt-5">
             <h2 className="text-xl text-center text-white ">
-              Indra Gandhi National Open University
+              Shivaji Science College
             </h2>
           </div>
           <div className="my-3">
             <p className="text-base text-center text-white mt-1">
-              Bachelor in Computer Application
+              Maharashtra State Board (HSC)
             </p>
-            <p className="text-base text-center text-white mt-1">2017 - 2020</p>
+            <p className="text-base text-center text-white mt-1">2018 - 2019</p>
           </div>
         </div>
         <div className="h-48 card">
           <div className="gap-2 mt-5">
             <h2 className="text-xl text-center text-white">
-              Ram Dayalu Singh College
+              Shreyas Convent School
             </h2>
           </div>
           <div className="my-3">
             <p className="text-base text-center text-white mt-1">
-              Higher Secondary(BSEB).
+              Maharashtra State Board (SSC)
             </p>
-            <p className="text-base text-center text-white mt-1">2015 - 2017</p>
+            <p className="text-base text-center text-white mt-1">2016 - 2017</p>
           </div>
         </div>
       </div>

@@ -1,21 +1,18 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import HomePage from "../components/Home";
-import Footer from "../components/Footer";
-import Skill from "../components/Skill";
-import About from "../components/About";
-import Project from "../components/Project";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import Education from "../components/Education";
+import Head from 'next/head';
+import Header from '../components/Header';
+import HomePage from '../components/Home';
+import Footer from '../components/Footer';
+import Skill from '../components/Skill';
+import About from '../components/About';
+import Project from '../components/Project';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
+import Education from '../components/Education';
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Rahul Kushwaha</title>
-        <meta
-          name="description"
-          content="rahul kushwaha portfolio and profile"
-        />
+        <title>Amit Jaiswal</title>
+        <meta name="description" content="amit jaiswal portfolio and profile" />
         <meta
           name="google-site-verification"
           content="jI5Zjc4zTse0Dr8hGlpmZZoFkZ_bNzmgYmLp2bl8THY"
@@ -46,11 +43,7 @@ export default function Home() {
       {/*Footer Section*/}
       <Footer />
       <div className="whatsapp-container">
-        <a
-          href="https://api.whatsapp.com/send?phone=+918210078058"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://wa.me/+919022217954" target="_blank" rel="noreferrer">
           <AiOutlineWhatsApp className="text-5xl cursor-pointer" />
         </a>
       </div>
