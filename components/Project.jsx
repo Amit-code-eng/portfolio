@@ -1,7 +1,7 @@
-import React from "react";
-import { BiCodeAlt } from "react-icons/bi";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { AiFillPlayCircle } from "react-icons/ai";
+import React from 'react';
+import { BiCodeAlt } from 'react-icons/bi';
+import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { AiFillPlayCircle } from 'react-icons/ai';
 const Project = () => {
   return (
     <div className=" px-6 py-10">
@@ -13,16 +13,21 @@ const Project = () => {
         <div className="card h-48 relative">
           <div className="flex items-center  gap-2 mt-5">
             <FaReact className="text-white text-2xl" />
-            <h2 className=" text-xl text-white">Partdekho</h2>
+            <h2 className=" text-xl text-white">Path - Finding Visualizer</h2>
           </div>
           <div className="my-3">
             <p className=" text-base text-white">
-              Developed partdekho.com, an ecommerce web application created
-              using ReactJS and NodeJS.
+              Offered users an intuitive interface to visualize the 3 shortest
+              path Algo through Breadth-First Search, Dijkstra’s, and A* Search
+              Algorithms, structured in JavaScript.
             </p>
           </div>
           <div className=" absolute bottom-2 right-4">
-            <a href="https://partdekho.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Amit-code-eng/pathfinding-visualizer-master"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BiCodeAlt className="text-2xl text-white" />
             </a>
           </div>
@@ -31,17 +36,21 @@ const Project = () => {
         <div className="card h-48 relative">
           <div className="flex items-center  gap-2 mt-5">
             <FaNodeJs className="text-2xl text-white" />
-            <h2 className="text-xl text-white">Shortener Url</h2>
+            <h2 className="text-xl text-white">
+              Face Mask Detection Alert System
+            </h2>
           </div>
           <div className="my-3">
             <p className=" text-base text-white ">
-              A simple url shortener exactly like bitly, developed in NodeJS,
-              EJS and MongoDB.
+              Utilized the haarcascade frontalface dataset to detect frontal
+              faces. Gathered personal face data with and without masks via
+              camera and stored both datasets using OpenCV. Incorporated a Beep
+              alert that persists until a mask is worn.
             </p>
           </div>
           <div className=" absolute bottom-2 right-4">
             <a
-              href="https://github.com/Rahul-icoder/url-shortener"
+              href="https://github.com/Amit-code-eng/Face-Mask-Detection-Alert-System"
               target="_blank"
               rel="noreferrer"
             >
@@ -53,17 +62,17 @@ const Project = () => {
         <div className="card h-48 relative">
           <div className="flex items-center gap-2 mt-5">
             <FaNodeJs className="text-2xl text-white" />
-            <h2 className=" text-xl text-white">Node-Music</h2>
+            <h2 className=" text-xl text-white">Automated Messaging System</h2>
           </div>
           <div className="my-3">
             <p className=" text-base text-white ">
-              This web app developed in NodeJS and you change song remotely
-              through different device.
+              Designed and implemented an Automated Messaging System to
+              facilitate seamless communication between MongoDB and WhatsApp.
             </p>
           </div>
           <div className="absolute bottom-2 right-4">
             <a
-              href="https://github.com/Rahul-icoder/Node-Music"
+              href="https://github.com/Amit-code-eng/Whatsapp-Automate-System"
               target="_blank"
               rel="noreferrer"
             >

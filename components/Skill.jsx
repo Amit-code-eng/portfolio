@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 const Skill = () => {
   return (
     <div className="py-8 px-6 sm:px-10">
@@ -10,29 +10,32 @@ const Skill = () => {
           <h3 className="text-slate-500 text-base md:text-xl">
             Web Application Development
           </h3>
-          <div className="bg-slate-200 h-5 w-full relative rounded-full mt-2 sm:mt-4">
+          <div className="bg-slate-200 h-5 w-full rounded-full mt-2 sm:mt-4">
             <div
-              style={{ width: "85%" }}
+              style={{ width: '75%' }}
               className="bg-gray-700 h-5 rounded-l-full rounded-r-md"
             ></div>
           </div>
         </div>
         <div>
           <h3 className="text-slate-500 text-base md:text-xl">
-            Mobile App Development
+            Data Structure and Algorithm / Programming
           </h3>
-          <div className="bg-slate-200 h-5 w-full rounded-full mt-2 sm:mt-4">
+          <div className="bg-slate-200 h-5 w-full relative rounded-full mt-2 sm:mt-4">
             <div
-              style={{ width: "50%" }}
+              style={{ width: '85%' }}
               className="bg-gray-700 h-5 rounded-l-full rounded-r-md"
             ></div>
           </div>
         </div>
+
         <div>
-          <h3 className="text-slate-500 text-base md:text-xl">Programming</h3>
+          <h3 className="text-slate-500 text-base md:text-xl">
+            Data Analytics / ML
+          </h3>
           <div className="bg-slate-200 h-5 w-full rounded-full mt-2 sm:mt-4">
             <div
-              style={{ width: "90%" }}
+              style={{ width: '70%' }}
               className="bg-gray-700 h-5 rounded-l-full rounded-r-md"
             ></div>
           </div>
