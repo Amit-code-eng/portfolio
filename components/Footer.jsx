@@ -1,8 +1,4 @@
-import {
-  AiFillGithub,
-  AiOutlineInstagram,
-  AiOutlineMail,
-} from 'react-icons/ai';
+import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import { FaAngleDoubleUp } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 
