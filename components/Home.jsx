@@ -55,7 +55,7 @@ function Home() {
           </div>
           <div className="flex justify-center mt-10">
             <a
-              href="https://drive.google.com/file/d/19Ou-bqp4dXxM0ekt76YC-X41KB4or9Da/view?usp=drive_link"
+              href="https://drive.google.com/file/d/13aOZ_lRIoQW3UHdypUHXe4DV0jLWR6Zc/view?usp=drivesdk"
               target="_blank"
               rel="noreferrer"
             >
