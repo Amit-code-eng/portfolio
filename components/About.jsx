@@ -24,14 +24,21 @@ function About() {
             Count me in! But that's not all – I'm not just confined to the
             digital realm. With a solid grasp of Linux and AWS, I effortlessly
             navigate the cloud, adeptly deploying and managing applications to
-            ensure seamless performance and scalability. Beyond the lines of
-            code, I'm a fervent sports enthusiast, finding joy and inspiration
-            in the competitive spirit that drives both technology and athletics
-            alike. Confidence is my middle name, backed by a rock-solid
-            foundation of skills and experiences that fuel my passion for
-            innovation. Ready to embark on the next exciting chapter of my
-            journey, I'm eager to collaborate, create, and conquer new horizons.
-            Let's build something remarkable together! 🚀
+            ensure seamless performance and scalability.
+          </p>
+          <p className="text-base md:text-lg  mt-6 md:mt-10 text-gray-500 text-center md:text-left">
+            Moreover, I am an avid competitor in the realm of competitive
+            programming, with a keen interest in platforms like LeetCode,
+            Codeforces, and GeeksforGeeks. I relish the challenges presented by
+            algorithmic problem-solving and consistently strive to sharpen my
+            skills in this domain. Beyond the lines of code, I'm a fervent
+            sports enthusiast, finding joy and inspiration in the competitive
+            spirit that drives both technology and athletics alike. Confidence
+            is my middle name, backed by a rock-solid foundation of skills and
+            experiences that fuel my passion for innovation. Ready to embark on
+            the next exciting chapter of my journey, I'm eager to collaborate,
+            create, and conquer new horizons. Let's build something remarkable
+            together! 🚀
           </p>
           <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-8 mt-6 justify-center">
             {imageObject.map((item) => (
