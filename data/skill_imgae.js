@@ -1,4 +1,6 @@
 export const imageObject = [
+  { id: 23, fileName: 'java.svg', name: 'Java' },
+  { id: 24, fileName: 'spring_boot.svg', name: 'Spring Boot' },
   {
     id: 17,
     fileName: 'c-plus-plus.svg',
@@ -74,11 +76,6 @@ export const imageObject = [
     name: 'Shell Script',
   },
   {
-    id: 19,
-    fileName: 'ai.svg',
-    name: 'AI/ML',
-  },
-  {
     id: 20,
     fileName: 'gpt.svg',
     name: 'GPT',
@@ -87,10 +84,5 @@ export const imageObject = [
     id: 21,
     fileName: 'openai.svg',
     name: 'OpenAI',
-  },
-  {
-    id: 22,
-    fileName: 'claude.svg',
-    name: 'Claude',
   },
 ];

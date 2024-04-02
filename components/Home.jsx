@@ -1,6 +1,6 @@
 import { AiFillGithub, AiOutlineMail } from 'react-icons/ai';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
-
+import { SiLeetcode, SiCodeforces } from 'react-icons/si';
 function Home() {
   return (
     <div className="flex relative z-10 justify-center px-6 sm:px-10 sm:py-10 pt-5">
@@ -13,7 +13,7 @@ function Home() {
             Hi, I&#x27;m Amit
           </h1>
           <h2 className="text-lg md:text-xl lg:text-2xl text-gray-500 tracking-wide mx-auto text-gray-500 text-center">
-            Developer 🧑‍💻 | Analytics 🤖 | DSA 🚀 | IIT BHU 🧑🏼‍🎓
+            Developer 🧑‍💻 | DSA 🚀 | Analytics 🤖 | IIT BHU 👨‍🎓
           </h2>
           <div className="flex mt-8 gap-5">
             <a
@@ -52,10 +52,28 @@ function Home() {
                 <FaLinkedinIn />
               </div>
             </a>
+            <a
+              href="https://codeforces.com/profile/BoRoS4444"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="home-icon">
+                <SiCodeforces />
+              </div>
+            </a>
+            <a
+              href="https://leetcode.com/BoRoS4444/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="home-icon">
+                <SiLeetcode />
+              </div>
+            </a>
           </div>
           <div className="flex justify-center mt-10">
             <a
-              href="https://drive.google.com/file/d/19Ou-bqp4dXxM0ekt76YC-X41KB4or9Da/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1hVoCsOYbPWq5Uq_MA0zewHN0sgZ0HW6i/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >
