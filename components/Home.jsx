@@ -13,7 +13,7 @@ function Home() {
             Hi, I&#x27;m Amit
           </h1>
           <h2 className="text-lg md:text-xl lg:text-2xl text-gray-500 tracking-wide mx-auto text-gray-500 text-center">
-            Developer 🧑‍💻 | DSA 🚀 | Analytics 🤖 | IIT BHU 👨‍🎓
+            Developer 🧑‍💻 | Analytics 🤖 | CIVIL 🏗️ | IIT BHU 👨‍🎓
           </h2>
           <div className="flex mt-8 gap-5">
             <a
