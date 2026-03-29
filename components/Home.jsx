@@ -13,7 +13,7 @@ function Home() {
             Hi, I&#x27;m Amit
           </h1>
           <h2 className="text-lg md:text-xl lg:text-2xl text-gray-500 tracking-wide mx-auto text-gray-500 text-center">
-            Developer 🧑‍💻 | Analytics 🤖 | CIVIL 🏗️ | IIT BHU 👨‍🎓
+            DEVELOPER 🧑‍💻 | ELECTRONICS 🤖 | CIVIL 🏗️ | IIT BHU
           </h2>
           <div className="flex mt-8 gap-5">
             <a
@@ -73,7 +73,7 @@ function Home() {
           </div>
           <div className="flex justify-center mt-10">
             <a
-              href="https://drive.google.com/file/d/1AINsOWSKQEHFLkoXTVCK-nXT5Nx9VIzc/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1YO4W1vgH46d6OaW0jzPePpyEFIsFxRZx/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

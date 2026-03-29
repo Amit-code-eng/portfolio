@@ -11,34 +11,20 @@ function About() {
             About Me 🧑‍💻
           </h2>
           <p className="text-base md:text-lg  mt-6 md:mt-10 text-gray-500 text-center md:text-left">
-            Hey there! 👋 I'm Amit Jaiswal, a dynamic Software Engineer hailing
-            from the prestigious halls of IIT BHU Varanasi, where I graduated
-            with flying colors, boasting a CPI of 8.68. With a year of rich
-            industry experience under my belt, I bring a blend of technical
-            prowess and innovative thinking to the table. My journey through the
-            tech landscape has been nothing short of exhilarating. From
-            mastering the intricacies of the MERN Stack to delving deep into the
-            realms of Python and Machine Learning (think pandas, openpyxl, and
-            beyond), I thrive on the diversity of technologies and domains I've
-            had the privilege to explore. Shell Scripting? You bet! OpenAI API?
-            Count me in! But that's not all – I'm not just confined to the
-            digital realm. With a solid grasp of Linux and AWS, I effortlessly
-            navigate the cloud, adeptly deploying and managing applications to
-            ensure seamless performance and scalability.
+            Hey there! 👋 I'm Amit Jaiswal, an engineer with a cross-disciplinary foundation spanning civil engineering, electronics, and software systems, with a strong inclination toward low-level computing and system design.
+            I graduated from IIT (BHU) with a B.Tech in Civil Engineering (CPI: 8.68), and later secured AIR 108 in GATE 2026 (Electronics) , reflecting a deliberate transition into core electronics and computing systems.
+            Professionally, I have worked as a full-stack developer where I built production-grade systems involving automation pipelines, cloud-integrated architectures (AWS S3, EC2), and data processing workflows. My work includes designing CI/CD pipelines, backend middleware for secure data transfer, and high-performance data automation tools (achieving 100× improvements in processing efficiency)
           </p>
           <p className="text-base md:text-lg  mt-6 md:mt-10 text-gray-500 text-center md:text-left">
-            Moreover, I am an avid competitor in the realm of competitive
-            programming, with a keen interest in platforms like LeetCode,
-            Codeforces, and GeeksforGeeks. I relish the challenges presented by
-            algorithmic problem-solving and consistently strive to sharpen my
-            skills in this domain. Beyond the lines of code, I'm a fervent
-            sports enthusiast, finding joy and inspiration in the competitive
-            spirit that drives both technology and athletics alike. Confidence
-            is my middle name, backed by a rock-solid foundation of skills and
-            experiences that fuel my passion for innovation. Ready to embark on
-            the next exciting chapter of my journey, I'm eager to collaborate,
-            create, and conquer new horizons. Let's build something remarkable
-            together! 🚀
+          Beyond conventional web development, my core interest lies in system-level engineering — particularly:
+
+          * Linux-based environments and shell-driven workflows.
+          * Android internals, rooting, and AOSP ecosystem.
+          * Interaction between software and hardware (GPIO, PWM, embedded control).
+          * Algorithmic problem solving and performance-oriented design.
+          </p>
+          <p className="text-base md:text-lg  mt-6 md:mt-10 text-gray-500 text-center md:text-left">I approach engineering as a stack-spanning problem, from hardware interaction up to distributed application layers, with a focus on efficiency, control, and system transparency.
+          Currently, I am focused on advancing toward VLSI, embedded systems, and low-level architecture domains, while continuing to build and experiment across the software-hardware boundary.
           </p>
           <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-8 mt-6 justify-center">
             {imageObject.map((item) => (

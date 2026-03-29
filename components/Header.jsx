@@ -13,9 +13,9 @@ function Header() {
     <header className="w-full px-3 pb-2 sm:px-6 py-6  flex items-start justify-between">
       <h1
         className="text-2xl font-semibold"
-        style={{ fontFamily: "'Dancing Script', cursive" }}
+        // style={{ fontFamily: "'Dancing Script', cursive" }}
       >
-        Amit Dilip Jaiswal
+        Systems Engineer | Electronics (GATE AIR 108) | Backend
       </h1>
       <nav
         ref={navRef}
